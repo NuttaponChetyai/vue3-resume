@@ -10,19 +10,18 @@
 
 <script setup>
 import {
-   onMounted,
-   ref
+   onMounted
 } from "@vue/runtime-core";
 let i = 0;
 let speed = 200;
 let text = "Full Stack Developer"
 let typingText = '';
-const title = ref('');
+const title = $ref('');
 
 const typeWriter = () => {
    if (i < text.length) {
       typingText += text.charAt(i);
-      title.value = typingText;
+      title = typingText;
       i++;
       setTimeout(typeWriter, speed);
    }
