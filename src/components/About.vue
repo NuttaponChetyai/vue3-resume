@@ -1,6 +1,6 @@
 <script setup>
 
-import { onMounted, computed } from "vue-demi";
+import { onMounted } from "vue-demi";
 import { usePersonalStore } from "../stores/about/personal.store";
 import { useEducationStore } from "../stores/about/education.store";
 import { useContactStore } from "../stores/about/contact.store";

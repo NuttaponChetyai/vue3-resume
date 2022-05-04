@@ -4,6 +4,7 @@
 import Parallax from "../components/Parallex.vue";
 import About from "../components/About.vue";
 import Skill from "../components/Skill.vue";
+import Experience from "../components/Experience.vue";
 
 
 </script>
@@ -12,4 +13,5 @@ import Skill from "../components/Skill.vue";
 	<Parallax/>
 	<About/>
 	<Skill/>
+	<Experience/>
 </template>

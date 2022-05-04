@@ -2,7 +2,7 @@
 import { onMounted, onBeforeUnmount } from "vue-demi"
 
 const linkToCode = () => {
-	window.open('https://github.com/NuttaponChetyai', '_blank')
+	window.open('https://github.com/NuttaponChetyai/NuttaponChetyai', '_blank')
 }
 
 const downloadCV = () => {
@@ -35,7 +35,7 @@ const gotoTop = () => {
 
 <template>
 	<q-page-sticky position="bottom-right" :offset="[18, 18]">
-		<q-btn @click="linkToCode()" title="Code Resume" fab icon="fas fa-file-code" color="orange-8" />
+		<q-btn @click="linkToCode()" title="GitHub" fab icon="fab fa-github" color="orange-8" />
 	</q-page-sticky>
 	<q-page-sticky position="bottom-right" :offset="[18, 90]">
 		<q-btn @click="downloadCV()" title="Download Resume" fab icon="fas fa-download" color="blue-9" />
