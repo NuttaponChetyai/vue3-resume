@@ -1,7 +1,7 @@
 let experienceInformation = [{
 	timeline: '11/2019 - Present',
 	company: 'EPIC Consulting (Onsite AIS)',
-	position: 'Senior Full Stack Developer',
+	position: 'Full Stack Developer',
 	description: 'Develop Web Application , Web Service , Deployment',
 
 }, {

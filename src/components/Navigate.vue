@@ -2,7 +2,7 @@
 import { onMounted, onBeforeUnmount } from "vue-demi"
 
 const linkToCode = () => {
-	window.open('https://github.com/NuttaponChetyai/NuttaponChetyai', '_blank')
+	window.open('https://github.com/NuttaponChetyai', '_blank')
 }
 
 const downloadCV = () => {
